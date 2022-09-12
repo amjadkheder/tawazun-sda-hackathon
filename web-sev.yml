@@ -8,7 +8,7 @@ metadata:
 spec:
   selector:
     app: tawazun
-    type: NodePort
+    service: tawazun-svc
   ports:
     - protocol: TCP
       port: 80 
