@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: sql
-  namespace: amjad-quota
+  namespace: amjad
   labels:
     app: sql
     name: amjad

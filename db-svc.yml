@@ -3,7 +3,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: cluster-ip-service
-  namespace: amjad-quota
+  namespace: amjad
   labels:
     app: sql
     name: amjad

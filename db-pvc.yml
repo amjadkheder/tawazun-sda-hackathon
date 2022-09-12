@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: sql-pv-claim
-  namespace: amjad-quota
+  namespace: amjad
   labels:
     app: sql
 spec:
